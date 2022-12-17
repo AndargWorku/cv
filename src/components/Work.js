@@ -1,6 +1,6 @@
 import React from 'react'
-import work from "../assets/work.png"
-import dolar from '../assets/dolar (2).png'
+// import work from "../assets/work.png"
+// import dolar from '../assets/dolar (2).png'
 import Booking from '../assets/Booking.png'
 
 import admin from "../assets/admin.png"

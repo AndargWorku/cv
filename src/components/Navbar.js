@@ -72,41 +72,41 @@ const Navbar = () => {
       <div className='hidden:lg flex fixed flex-col top-[35%] left-0'>
         <ui className='-mt-14'>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10px] duration-300 bg-blue-600'>
-                <a href="https://www.linkedin.com/company/login/?originalSubdomain=ph" target="blank"
+                <a href="https://www.linkedin.com/company/login/?originalSubdomain=ph" target="_blank" rel="noreferrer"
                 className='flex justify-between w-full items-center text-gray-300'>
                     Linkedin<FaLinkedin size={30}/></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10px] duration-300 bg-[#333333]'>
-                <a href='https://www.google.com/' target="blank"
+                <a href='https://www.google.com/' target="_blank" rel="noreferrer"
                  className='flex justify-between w-full items-center text-gray-300'>
                     Facebook<FaFacebook size={30}/></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
-                <a href='https://github.com/AndargWorku' target="blank"  className='flex justify-between w-full items-center text-gray-300'
+                <a href='https://github.com/AndargWorku' target="_blank" rel="noreferrer"  className='flex justify-between w-full items-center text-gray-300'
                  >
                     Github<FaGithub size={30}/></a>
                 </li>
                 
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10px] duration-300 bg-[#6b060f12]'>
-                <a href='https://core.telegram.org/blackberry/login' target="blank"
+                <a href='https://core.telegram.org/blackberry/login' target="_blank" rel="noreferrer"
                  className='flex justify-between w-full items-center text-gray-300'>
                     Telegram<FaTelegram size={30}/></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10px] duration-300 bg-[rgb(97,5,5)]'>
                 <a href='https://www.secure.instagram.com/accounts/login/?next=/kookspoems/feed/&source=profile_feed_tab&hl=en-gb'
-                target="blank"
+                target="_blank" rel="noreferrer"
                 className='flex justify-between w-full items-center text-gray-300'>
                     instagram
                     <FaInstagram size={30}/></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10px] duration-300 bg-[#4611d811]'>
-                <a href='https://twitter.com/i/flow/login' target="blank"
+                <a href='https://twitter.com/i/flow/login' target="_blank" rel="noreferrer"
                  className='flex justify-between w-full items-center text-gray-300'>
                     Twitter<FaTwitter size={30}/></a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100] hover:ml-[-10px] duration-300 bg-[#3c1bce77]'>
                 <a href="https://mail.google.com/mail/u/0/#inbox"
-                 target='_blank' className='flex justify-between w-full items-center text-gray-300'>
+                 target='_blank' rel="noreferrer" className='flex justify-between w-full items-center text-gray-300'>
                     Email<HiOutlineMail size={30}/></a>
                 </li>
         </ui>
